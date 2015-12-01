@@ -3,9 +3,11 @@ It creates hidden meta-data folder in the folder. I need it for making snapshots
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+User always edits files present in the working directory. Staging area snapsshots the files in preparation for versioning. A file has to be added to staging area from the working directore before it can be committed to the repository.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+By adding all the modified files that represent a logical change to the stating area using git add and followed immeditely with a git commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
