@@ -11,6 +11,7 @@ By adding all the modified files that represent a logical change to the stating 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When you want to try new variations of a feature on an experimental basis so that such a variation can be tested independently without affecting the master or main branch. Branching can also be done at the time of releasing a new version of the application to allow developers to continue working towards the next version on the master branch 
 
 How do the diagrams help you visualize the branch structure?
 
