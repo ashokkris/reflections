@@ -22,3 +22,4 @@ The commits of the second branch get included in the current branch. The diagram
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+The pros are it greatly reduces effort of manually resolving all differences encountered typically during a merge - only those changes in the same sections of the file have to be manually resolved. The disadvantage of automatic merging is that at times it could result in a resolution that was not what was actually desired.
