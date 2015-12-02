@@ -18,6 +18,7 @@ They help trace the parent path from a commit at, say, the tip of a branch. This
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The commits of the second branch get included in the current branch. The diagram shows the sequence of commits in the two branches from just before the second branch was created until the commmon commit shared by the two branches.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
