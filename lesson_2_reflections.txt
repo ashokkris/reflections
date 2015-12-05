@@ -7,7 +7,7 @@ User always edits files present in the working directory. Staging area snapsshot
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-By adding all the modified files that represent a logical change to the stating area using git add and followed immeditely with a git commit.
+By adding all the modified files that represent a logical change to the stating area using git add and followed immediately with a git commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -19,7 +19,8 @@ They help trace the parent path from a commit at, say, the tip of a branch. This
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 The commits of the second branch get included in the current branch. The diagram shows the parent path for the two branches starting from the commit resulting from the merge all the way back to the most recent commit just before the branch.
+Also, the current branch will now have the commit created for the merge as it's tip .
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
-The pros are it greatly reduces effort of manually resolving all differences encountered typically during a merge - only those changes in the same sections of the file have to be manually resolved. The disadvantage of automatic merging is that at times it could result in a resolution that was not what was actually desired.
+The pros are it greatly reduces effort of manually resolving all differences encountered typically during a merge - only those changes in the same sections of the file have to be manually resolved. The disadvantage of automatic merging is that at times it could result in a resolution that was not what was actually desired. Also, it may result in a commit that may not compile due to incompatible changes that may go unnoticed.
