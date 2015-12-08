@@ -26,7 +26,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It allows you to get the latest code from the remote before you go offline
+    and lets you compare the status of your branch with the last known state
+    of the remote while letting you to continue working on your branch
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
