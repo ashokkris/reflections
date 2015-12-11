@@ -41,4 +41,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would wantt to do that if I want my changes to get reviewed first by someone else before my changes are integrated into the master. The benefit is that the master branch is kept sacrosanct with only approved changes going into it. However, it makes the workflow more complex as it involves more steps to merge changes between the local and master.
